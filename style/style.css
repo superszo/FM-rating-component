@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Default styles */
+
+h1 {
+    font-family: Overpass, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Overpass, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #FC7614;
+}
+
+p {
+    font-family: Overpass, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #969FAD;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #131518;
+    min-height: 100vh;
+}
+
+.card {
+    width: 340px;
+    height: 352px;
+    background: radial-gradient(#232A34, #181E27);
+    border-radius: 30px;
+    padding: 32px 40px 32px 32px;
+}
+
+.star {
+    border-radius: 50%;
+    margin-bottom: 30px;
+    background-color: #262E38;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.rating-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.option {
+    height: 50px;
+    width: 50px;
+    background-color: #262E38;
+    color: #969FAD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Overpass, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+
+#submit-rating {
+    font-family: Overpass, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #FC7614;
+    margin-top: 32px;
+    border-radius: 22.5px;
+    border: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+#submit-rating:hover {
+    background-color: #FFFFFF;
+    color: #FC7614;
+}
+
+.option-hover {
+    background-color: #7C8798;
+    color: #FFFFFF;
+}
+
+.option-choice {
+    background-color: #FC7614;
+    color: #FFFFFF;
+}
+
+.user-rating {
+    color: #FC7614;
+    background-color: #262E38;
+    padding: 4px 20px;
+    border-radius: 22.5px;
+}
+
+.rating {
+    display: block;
+}
+
+.thank-you {
+    text-align: center;
+
+}
+
+.thank-you img {
+    margin-top: 13px;
+}
+
+.user-rating {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.thank-you h1 {
+    margin-bottom: 16px;
+}
+
+#thank-you {
+    display: none;
+}
+
+#thank-you.show {
+    display: block;
+}
+
+
+#rating.hide {
+    display: none;
+}
